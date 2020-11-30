@@ -1,0 +1,88 @@
+export: Command not found.
+Missing }.
+
+Sun Aug 16 11:14:19 CEST 2020
+Directory: /tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded
+
+Delete mpd.hosts!
+
+Python-Skript: /tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded/model_AMP.py
+
+Number of MPI processes: 64
+Hostlist: r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52
+
+Start the job!
+INFO:root:Generating training and test data
+INFO:root:Generation of training and test data finished!
+INFO:root:Starting Training
+Train indices: [0, 1, 2, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 23, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 45, 46, 48, 49]
+Test indices: [3, 4, 5, 7, 17, 22, 24, 25, 44, 47]
+Train energies: (40,)
+Test energies: (10,)
+{'r03n60': 16, 'r03n59': 16, 'r03n57': 16, 'r03n52': 16}
+Traceback (most recent call last):
+  File "/tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded/model_AMP.py", line 300, in <module>
+    calc = Amp.load('../Al6_for_Al10_reloaded/calc_Al6.amp')
+  File "/tp_leppert/amp_package/amp/amp/__init__.py", line 177, in load
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../Al6_for_Al10_reloaded/calc_Al6.amp'
+Job ended!
+
+Sun Aug 16 11:14:42 CEST 2020
+
+================================
+  START btrzx2 EPILOGUE SCRIPT
+================================
+
+User is 
+
+Epilogue Args (normal):
+
+Job ID:              248793.mgmt01
+User ID:             bt702501
+Group ID:            vivaorg_18029055
+Job name:            x2.compute20_vasp.sub
+Session ID:          126361
+Resourse list:       neednodes=4:ppn=32:compute20,nodes=4:ppn=32:compute20,walltime=20:00:00
+Resource used:       cput=00:00:13,mem=22276208kb,vmem=27202160kb,walltime=00:00:24
+Queue name:          default
+Account string:      
+Exit code:           248793.mgmt010
+
+Epilogue session ID: 126485
+
+Hostlist:            r03n60 r03n59 r03n57 r03n52 
+
+#Nodes:              4
+
+----------------------
+Multiple nodes section
+----------------------
+
+Host r03n60
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n59
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n57
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n52
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+================================
+   END btrzx2 EPILOGUE SCRIPT
+================================

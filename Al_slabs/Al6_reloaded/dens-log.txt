@@ -1,0 +1,205 @@
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.org/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: bt702501
+Hostname: btplx4
+Date: 2020-08-04T15:41:29 (2020-08-04T13:41:29 UTC)
+Architecture: x86_64
+PID: 4511
+Amp version: 0.6.1
+Amp directory: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/amp
+ Last commit: b'unknown hash'
+ Last commit date: b'unknown date'
+Python: v3.6.10: /home/btpl/bt702501/Localenv/bin/python
+ASE v3.19.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/ase
+NumPy v1.18.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/numpy
+SciPy v1.2.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/scipy
+ZMQ/PyZMQ v4.3.2/v19.0.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/pexpect/pxssh.py
+======================================================================
+No queuing system detected; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 8
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.org/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: bt702501
+Hostname: btplx4
+Date: 2020-08-04T15:49:32 (2020-08-04T13:49:32 UTC)
+Architecture: x86_64
+PID: 5655
+Amp version: 0.6.1
+Amp directory: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/amp
+ Last commit: b'unknown hash'
+ Last commit date: b'unknown date'
+Python: v3.6.10: /home/btpl/bt702501/Localenv/bin/python
+ASE v3.19.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/ase
+NumPy v1.18.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/numpy
+SciPy v1.2.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/scipy
+ZMQ/PyZMQ v4.3.2/v19.0.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/pexpect/pxssh.py
+======================================================================
+No queuing system detected; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 8
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.org/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: bt702501
+Hostname: btplx4
+Date: 2020-08-04T16:22:17 (2020-08-04T14:22:17 UTC)
+Architecture: x86_64
+PID: 9592
+Amp version: 0.6.1
+Amp directory: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/amp
+ Last commit: b'unknown hash'
+ Last commit date: b'unknown date'
+Python: v3.6.10: /home/btpl/bt702501/Localenv/bin/python
+ASE v3.19.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/ase
+NumPy v1.18.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/numpy
+SciPy v1.2.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/scipy
+ZMQ/PyZMQ v4.3.2/v19.0.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/pexpect/pxssh.py
+======================================================================
+No queuing system detected; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 8
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.org/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: bt702501
+Hostname: btplx4
+Date: 2020-08-04T16:41:11 (2020-08-04T14:41:11 UTC)
+Architecture: x86_64
+PID: 11905
+Amp version: 0.6.1
+Amp directory: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/amp
+ Last commit: b'unknown hash'
+ Last commit date: b'unknown date'
+Python: v3.6.10: /home/btpl/bt702501/Localenv/bin/python
+ASE v3.19.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/ase
+NumPy v1.18.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/numpy
+SciPy v1.2.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/scipy
+ZMQ/PyZMQ v4.3.2/v19.0.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/pexpect/pxssh.py
+======================================================================
+No queuing system detected; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 8
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.org/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: bt702501
+Hostname: btplx4
+Date: 2020-08-05T14:34:02 (2020-08-05T12:34:02 UTC)
+Architecture: x86_64
+PID: 17296
+Amp version: 0.6.1
+Amp directory: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/amp
+ Last commit: b'unknown hash'
+ Last commit date: b'unknown date'
+Python: v3.6.10: /home/btpl/bt702501/Localenv/bin/python
+ASE v3.19.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/ase
+NumPy v1.18.1: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/numpy
+SciPy v1.2.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/scipy
+ZMQ/PyZMQ v4.3.2/v19.0.0: /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/btpl/bt702501/Localenv/lib/python3.6/site-packages/pexpect/pxssh.py
+======================================================================
+No queuing system detected; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 8

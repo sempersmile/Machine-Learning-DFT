@@ -1,0 +1,140 @@
+export: Command not found.
+Missing }.
+
+Thu Aug  6 13:27:17 CEST 2020
+Directory: /tp_leppert/bt702501/CodesII/Al6_reloaded
+
+Delete mpd.hosts!
+
+Python-Skript: /tp_leppert/bt702501/CodesII/Al6_reloaded/model_AMP.py
+
+Number of MPI processes: 128
+Hostlist: r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55
+
+Start the job!
+INFO:root:Generating training and test data
+INFO:root:Generation of training and test data finished!
+INFO:root:Starting Training
+INFO:root:Training finished!
+N Densities: 50
+Train indices: [0, 1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 27, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 47, 48]
+Test indices: [2, 9, 19, 22, 28, 32, 43, 45, 46, 49]
+Train densities: (40, 1, 96, 140, 384)
+Test densities: (10, 1, 96, 140, 384)
+Train energies: (40,)
+Test energies: (10,)
+{'r03n39': 16, 'r03n34': 16, 'r03n33': 16, 'r03n32': 16, 'r03n31': 16, 'r02n60': 16, 'r02n57': 16, 'r02n55': 16}
+/tp_leppert/amp_package/amp/amp/analysis.py:372: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  ax.plot(list(zip(*np.vstack(energy_data.values())))[0],
+/tp_leppert/amp_package/amp/amp/analysis.py:373: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  list(zip(*np.vstack(energy_data.values())))[1], color)
+/tp_leppert/amp_package/amp/amp/analysis.py:389: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  ax.plot(np.hstack(force_data.values())[0].flatten(),
+/tp_leppert/amp_package/amp/amp/analysis.py:390: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  np.hstack(force_data.values())[1].flatten(), color)
+[-572.78643311 -572.38338567 -572.11515617 -572.42772145 -572.3447584
+ -572.08472537 -571.96200427 -572.11398587 -572.25305616 -572.39594812]
+[-572.6856209818752 -572.4182079460988 -572.1484758867571
+ -572.4152190613869 -572.1838252845739 -571.9570580470735
+ -572.0570796645509 -572.175109140781  -572.3684031572507
+ -572.5741370824534]
+Traceback (most recent call last):
+  File "/tp_leppert/bt702501/CodesII/Al6_reloaded/model_AMP.py", line 346, in <module>
+    overwrite=True)
+  File "/tp_leppert/amp_package/amp/amp/analysis.py", line 402, in plot_parity_and_error
+    fig.savefig(plotfile_parity)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/figure.py", line 2203, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 2105, in print_figure
+    **kwargs)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/backends/backend_pdf.py", line 2541, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/backends/backend_pdf.py", line 459, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/cbook/__init__.py", line 403, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nuss/01/bt702501/Dokumente/PlotsII_reloaded/parity_Al6.pdf'
+Job ended!
+
+Thu Aug  6 14:21:37 CEST 2020
+
+================================
+  START btrzx2 EPILOGUE SCRIPT
+================================
+
+User is 
+
+Epilogue Args (normal):
+
+Job ID:              247649.mgmt01
+User ID:             bt702501
+Group ID:            vivaorg_18029055
+Job name:            x2.compute20_vasp.sub
+Session ID:          15144
+Resourse list:       neednodes=8:ppn=32:compute20,nodes=8:ppn=32:compute20,walltime=20:00:00
+Resource used:       cput=13:46:50,mem=4719092kb,vmem=18309584kb,walltime=00:54:21
+Queue name:          default
+Account string:      
+Exit code:           247649.mgmt010
+
+Epilogue session ID: 16474
+
+Hostlist:            r03n39 r03n34 r03n33 r03n32 r03n31 r02n60 r02n57 r02n55 
+
+#Nodes:              8
+
+----------------------
+Multiple nodes section
+----------------------
+
+Host r03n39
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n34
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n33
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n32
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n31
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n60
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n57
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n55
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+================================
+   END btrzx2 EPILOGUE SCRIPT
+================================

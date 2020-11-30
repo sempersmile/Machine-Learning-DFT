@@ -1,0 +1,102 @@
+export: Command not found.
+Missing }.
+
+Thu Aug  6 13:14:51 CEST 2020
+Directory: /tp_leppert/bt702501/CodesII/Al6_reloaded
+
+Delete mpd.hosts!
+
+Python-Skript: /tp_leppert/bt702501/CodesII/Al6_reloaded/model_AMP.py
+
+Number of MPI processes: 128
+Hostlist: r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n34 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n60 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n57 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n55 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51 r02n51
+
+Start the job!
+  File "/tp_leppert/bt702501/CodesII/Al6_reloaded/model_AMP.py", line 353
+    
+    ^
+SyntaxError: EOF while scanning triple-quoted string literal
+Job ended!
+
+Thu Aug  6 13:15:09 CEST 2020
+
+================================
+  START btrzx2 EPILOGUE SCRIPT
+================================
+
+User is 
+
+Epilogue Args (normal):
+
+Job ID:              247635.mgmt01
+User ID:             bt702501
+Group ID:            vivaorg_18029055
+Job name:            x2.compute20_vasp.sub
+Session ID:          110739
+Resourse list:       neednodes=8:ppn=32:compute20,nodes=8:ppn=32:compute20,walltime=20:00:00
+Resource used:       cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:20
+Queue name:          default
+Account string:      
+Exit code:           247635.mgmt010
+
+Epilogue session ID: 110860
+
+Hostlist:            r03n34 r03n33 r03n32 r03n31 r02n60 r02n57 r02n55 r02n51 
+
+#Nodes:              8
+
+----------------------
+Multiple nodes section
+----------------------
+
+Host r03n34
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n33
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n32
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n31
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n60
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n57
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n55
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n51
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+================================
+   END btrzx2 EPILOGUE SCRIPT
+================================

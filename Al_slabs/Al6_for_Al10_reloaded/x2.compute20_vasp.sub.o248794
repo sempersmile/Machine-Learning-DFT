@@ -1,0 +1,87 @@
+export: Command not found.
+Missing }.
+
+Sun Aug 16 11:17:24 CEST 2020
+Directory: /tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded
+
+Delete mpd.hosts!
+
+Python-Skript: /tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded/model_AMP.py
+
+Number of MPI processes: 64
+Hostlist: r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52
+
+Start the job!
+INFO:root:Generating training and test data
+INFO:root:Generation of training and test data finished!
+INFO:root:Starting Training
+INFO:root:Training finished!
+Train indices: [0, 1, 2, 3, 5, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 36, 37, 39, 41, 42, 44, 46, 47, 48, 49]
+Test indices: [4, 9, 10, 23, 24, 31, 38, 40, 43, 45]
+Train energies: (40,)
+Test energies: (10,)
+{'r03n60': 16, 'r03n59': 16, 'r03n57': 16, 'r03n52': 16}
+[-969.62060182 -969.47518793 -969.54307401 -969.46691272 -969.60459182
+ -970.08807091 -969.22285373 -969.23598353 -968.84326493 -968.58381598]
+[-899.56873304 -898.52686156 -898.39878204 -897.8386998  -898.12954784
+ -899.63929481 -899.45045133 -899.84337166 -899.60061179 -898.95089989]
+Job ended!
+
+Sun Aug 16 13:42:49 CEST 2020
+
+================================
+  START btrzx2 EPILOGUE SCRIPT
+================================
+
+User is 
+
+Epilogue Args (normal):
+
+Job ID:              248794.mgmt01
+User ID:             bt702501
+Group ID:            vivaorg_18029055
+Job name:            x2.compute20_vasp.sub
+Session ID:          126710
+Resourse list:       neednodes=4:ppn=32:compute20,nodes=4:ppn=32:compute20,walltime=20:00:00
+Resource used:       cput=34:06:16,mem=24446444kb,vmem=27202160kb,walltime=02:25:25
+Queue name:          default
+Account string:      
+Exit code:           248794.mgmt010
+
+Epilogue session ID: 134943
+
+Hostlist:            r03n60 r03n59 r03n57 r03n52 
+
+#Nodes:              4
+
+----------------------
+Multiple nodes section
+----------------------
+
+Host r03n60
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n59
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n57
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n52
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+================================
+   END btrzx2 EPILOGUE SCRIPT
+================================

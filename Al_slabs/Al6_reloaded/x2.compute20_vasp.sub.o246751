@@ -1,0 +1,350 @@
+export: Command not found.
+Missing }.
+
+Fri Jul 31 02:01:31 CEST 2020
+Directory: /tp_leppert/bt702501/CodesII/Al6_reloaded
+
+
+Python-Skript: /tp_leppert/bt702501/CodesII/Al6_reloaded/model_AMP.py
+
+Number of MPI processes: 128
+Hostlist: r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n49 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n41 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n36 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n35 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n33 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n29 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n28 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23 r02n23
+
+Start the job!
+INFO:root:Generating training and test data
+Atoms(symbols='Al144', pbc=[True, True, False], cell=[11.45512985522207, 17.182694782833106, 50.125], tags=...)
+[[ 1.43189123  1.43189123 20.        ]
+ [ 4.2956737   1.43189123 20.        ]
+ [ 7.15945616  1.43189123 20.        ]
+ [10.02323862  1.43189123 20.        ]
+ [ 1.43189123  4.2956737  20.        ]
+ [ 4.2956737   4.2956737  20.        ]
+ [ 7.15945616  4.2956737  20.        ]
+ [10.02323862  4.2956737  20.        ]
+ [ 1.43189123  7.15945616 20.        ]
+ [ 4.2956737   7.15945616 20.        ]
+ [ 7.15945616  7.15945616 20.        ]
+ [10.02323862  7.15945616 20.        ]
+ [ 1.43189123 10.02323862 20.        ]
+ [ 4.2956737  10.02323862 20.        ]
+ [ 7.15945616 10.02323862 20.        ]
+ [10.02323862 10.02323862 20.        ]
+ [ 1.43189123 12.88702109 20.        ]
+ [ 4.2956737  12.88702109 20.        ]
+ [ 7.15945616 12.88702109 20.        ]
+ [10.02323862 12.88702109 20.        ]
+ [ 1.43189123 15.75080355 20.        ]
+ [ 4.2956737  15.75080355 20.        ]
+ [ 7.15945616 15.75080355 20.        ]
+ [10.02323862 15.75080355 20.        ]
+ [ 0.          0.         22.025     ]
+ [ 2.86378246  0.         22.025     ]
+ [ 5.72756493  0.         22.025     ]
+ [ 8.59134739  0.         22.025     ]
+ [ 0.          2.86378246 22.025     ]
+ [ 2.86378246  2.86378246 22.025     ]
+ [ 5.72756493  2.86378246 22.025     ]
+ [ 8.59134739  2.86378246 22.025     ]
+ [ 0.          5.72756493 22.025     ]
+ [ 2.86378246  5.72756493 22.025     ]
+ [ 5.72756493  5.72756493 22.025     ]
+ [ 8.59134739  5.72756493 22.025     ]
+ [ 0.          8.59134739 22.025     ]
+ [ 2.86378246  8.59134739 22.025     ]
+ [ 5.72756493  8.59134739 22.025     ]
+ [ 8.59134739  8.59134739 22.025     ]
+ [ 0.         11.45512986 22.025     ]
+ [ 2.86378246 11.45512986 22.025     ]
+ [ 5.72756493 11.45512986 22.025     ]
+ [ 8.59134739 11.45512986 22.025     ]
+ [ 0.         14.31891232 22.025     ]
+ [ 2.86378246 14.31891232 22.025     ]
+ [ 5.72756493 14.31891232 22.025     ]
+ [ 8.59134739 14.31891232 22.025     ]
+ [ 1.43189123  1.43189123 24.05      ]
+ [ 4.2956737   1.43189123 24.05      ]
+ [ 7.15945616  1.43189123 24.05      ]
+ [10.02323862  1.43189123 24.05      ]
+ [ 1.43189123  4.2956737  24.05      ]
+ [ 4.2956737   4.2956737  24.05      ]
+ [ 7.15945616  4.2956737  24.05      ]
+ [10.02323862  4.2956737  24.05      ]
+ [ 1.43189123  7.15945616 24.05      ]
+ [ 4.2956737   7.15945616 24.05      ]
+ [ 7.15945616  7.15945616 24.05      ]
+ [10.02323862  7.15945616 24.05      ]
+ [ 1.43189123 10.02323862 24.05      ]
+ [ 4.2956737  10.02323862 24.05      ]
+ [ 7.15945616 10.02323862 24.05      ]
+ [10.02323862 10.02323862 24.05      ]
+ [ 1.43189123 12.88702109 24.05      ]
+ [ 4.2956737  12.88702109 24.05      ]
+ [ 7.15945616 12.88702109 24.05      ]
+ [10.02323862 12.88702109 24.05      ]
+ [ 1.43189123 15.75080355 24.05      ]
+ [ 4.2956737  15.75080355 24.05      ]
+ [ 7.15945616 15.75080355 24.05      ]
+ [10.02323862 15.75080355 24.05      ]
+ [ 0.          0.         26.075     ]
+ [ 2.86378246  0.         26.075     ]
+ [ 5.72756493  0.         26.075     ]
+ [ 8.59134739  0.         26.075     ]
+ [ 0.          2.86378246 26.075     ]
+ [ 2.86378246  2.86378246 26.075     ]
+ [ 5.72756493  2.86378246 26.075     ]
+ [ 8.59134739  2.86378246 26.075     ]
+ [ 0.          5.72756493 26.075     ]
+ [ 2.86378246  5.72756493 26.075     ]
+ [ 5.72756493  5.72756493 26.075     ]
+ [ 8.59134739  5.72756493 26.075     ]
+ [ 0.          8.59134739 26.075     ]
+ [ 2.86378246  8.59134739 26.075     ]
+ [ 5.72756493  8.59134739 26.075     ]
+ [ 8.59134739  8.59134739 26.075     ]
+ [ 0.         11.45512986 26.075     ]
+ [ 2.86378246 11.45512986 26.075     ]
+ [ 5.72756493 11.45512986 26.075     ]
+ [ 8.59134739 11.45512986 26.075     ]
+ [ 0.         14.31891232 26.075     ]
+ [ 2.86378246 14.31891232 26.075     ]
+ [ 5.72756493 14.31891232 26.075     ]
+ [ 8.59134739 14.31891232 26.075     ]
+ [ 1.43189123  1.43189123 28.1       ]
+ [ 4.2956737   1.43189123 28.1       ]
+ [ 7.15945616  1.43189123 28.1       ]
+ [10.02323862  1.43189123 28.1       ]
+ [ 1.43189123  4.2956737  28.1       ]
+ [ 4.2956737   4.2956737  28.1       ]
+ [ 7.15945616  4.2956737  28.1       ]
+ [10.02323862  4.2956737  28.1       ]
+ [ 1.43189123  7.15945616 28.1       ]
+ [ 4.2956737   7.15945616 28.1       ]
+ [ 7.15945616  7.15945616 28.1       ]
+ [10.02323862  7.15945616 28.1       ]
+ [ 1.43189123 10.02323862 28.1       ]
+ [ 4.2956737  10.02323862 28.1       ]
+ [ 7.15945616 10.02323862 28.1       ]
+ [10.02323862 10.02323862 28.1       ]
+ [ 1.43189123 12.88702109 28.1       ]
+ [ 4.2956737  12.88702109 28.1       ]
+ [ 7.15945616 12.88702109 28.1       ]
+ [10.02323862 12.88702109 28.1       ]
+ [ 1.43189123 15.75080355 28.1       ]
+ [ 4.2956737  15.75080355 28.1       ]
+ [ 7.15945616 15.75080355 28.1       ]
+ [10.02323862 15.75080355 28.1       ]
+ [ 0.          0.         30.125     ]
+ [ 2.86378246  0.         30.125     ]
+ [ 5.72756493  0.         30.125     ]
+ [ 8.59134739  0.         30.125     ]
+ [ 0.          2.86378246 30.125     ]
+ [ 2.86378246  2.86378246 30.125     ]
+ [ 5.72756493  2.86378246 30.125     ]
+ [ 8.59134739  2.86378246 30.125     ]
+ [ 0.          5.72756493 30.125     ]
+ [ 2.86378246  5.72756493 30.125     ]
+ [ 5.72756493  5.72756493 30.125     ]
+ [ 8.59134739  5.72756493 30.125     ]
+ [ 0.          8.59134739 30.125     ]
+ [ 2.86378246  8.59134739 30.125     ]
+ [ 5.72756493  8.59134739 30.125     ]
+ [ 8.59134739  8.59134739 30.125     ]
+ [ 0.         11.45512986 30.125     ]
+ [ 2.86378246 11.45512986 30.125     ]
+ [ 5.72756493 11.45512986 30.125     ]
+ [ 8.59134739 11.45512986 30.125     ]
+ [ 0.         14.31891232 30.125     ]
+ [ 2.86378246 14.31891232 30.125     ]
+ [ 5.72756493 14.31891232 30.125     ]
+ [ 8.59134739 14.31891232 30.125     ]]
+['Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al', 'Al']
+INFO:root:    Calculating step 1
+INFO:root:    Calculating step 2
+-572.73811238
+INFO:root:    Calculating step 3
+-572.78619253
+INFO:root:    Calculating step 4
+-572.51653725
+INFO:root:    Calculating step 5
+-572.18405951
+INFO:root:    Calculating step 6
+-572.07101692
+INFO:root:    Calculating step 7
+-572.22572307
+INFO:root:    Calculating step 8
+-572.44884811
+INFO:root:    Calculating step 9
+-572.51693018
+INFO:root:    Calculating step 10
+-572.38554664
+INFO:root:    Calculating step 11
+-572.20713976
+INFO:root:    Calculating step 12
+-572.12617845
+INFO:root:    Calculating step 13
+-572.14152766
+INFO:root:    Calculating step 14
+-572.16822947
+INFO:root:    Calculating step 15
+-572.16509839
+INFO:root:    Calculating step 16
+-572.15129879
+INFO:root:    Calculating step 17
+-572.14528036
+INFO:root:    Calculating step 18
+-572.14209635
+INFO:root:    Calculating step 19
+-572.12593722
+INFO:root:    Calculating step 20
+-572.11495263
+INFO:root:    Calculating step 21
+-572.15733715
+INFO:root:    Calculating step 22
+-572.27632946
+INFO:root:    Calculating step 23
+-572.4271341
+INFO:root:    Calculating step 24
+-572.51513535
+INFO:root:    Calculating step 25
+-572.47756068
+INFO:root:    Calculating step 26
+-572.35462105
+INFO:root:    Calculating step 27
+-572.26875739
+INFO:root:    Calculating step 28
+-572.28962294
+INFO:root:    Calculating step 29
+-572.34465966
+INFO:root:    Calculating step 30
+-572.31427981
+INFO:root:    Calculating step 31
+-572.18508118
+INFO:root:    Calculating step 32
+-572.07588246
+INFO:root:    Calculating step 33
+-572.10467933
+INFO:root:    Calculating step 34
+-572.26641826
+INFO:root:    Calculating step 35
+-572.44940671
+INFO:root:    Calculating step 36
+-572.53164415
+INFO:root:    Calculating step 37
+-572.4808063
+INFO:root:    Calculating step 38
+-572.3772075
+INFO:root:    Calculating step 39
+-572.31045489
+INFO:root:    Calculating step 40
+-572.26340526
+INFO:root:    Calculating step 41
+-572.18089642
+INFO:root:    Calculating step 42
+-572.06944379
+INFO:root:    Calculating step 43
+-571.98375767
+INFO:root:    Calculating step 44
+-571.9616377
+INFO:root:    Calculating step 45
+-572.00883955
+INFO:root:    Calculating step 46
+-572.11368556
+INFO:root:    Calculating step 47
+-572.25271852
+INFO:root:    Calculating step 48
+-572.37829937
+INFO:root:    Calculating step 49
+-572.43148755
+INFO:root:Generation of training and test data finished!
+-572.39738803
+N Densities: 50
+Train indices: [2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49]
+Test indices: [0, 1, 5, 10, 13, 23, 33, 36, 37, 41]
+Train densities: (40, 1, 96, 140, 384)
+Test densities: (10, 1, 96, 140, 384)
+Train energies: (40,)
+Test energies: (10,)
+Job ended!
+
+Fri Jul 31 06:37:13 CEST 2020
+
+================================
+  START btrzx2 EPILOGUE SCRIPT
+================================
+
+User is 
+
+Epilogue Args (normal):
+
+Job ID:              246751.mgmt01
+User ID:             bt702501
+Group ID:            vivaorg_18029055
+Job name:            x2.compute20_vasp.sub
+Session ID:          183347
+Resourse list:       neednodes=8:ppn=32:compute20,nodes=8:ppn=32:compute20,walltime=60:00:00
+Resource used:       cput=62:32:08,mem=4295988kb,vmem=11869764kb,walltime=04:35:43
+Queue name:          default
+Account string:      
+Exit code:           246751.mgmt010
+
+Epilogue session ID: 9413
+
+Hostlist:            r02n49 r02n41 r02n36 r02n35 r02n33 r02n29 r02n28 r02n23 
+
+#Nodes:              8
+
+----------------------
+Multiple nodes section
+----------------------
+
+Host r02n49
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n41
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n36
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n35
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n33
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n29
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n28
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r02n23
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+================================
+   END btrzx2 EPILOGUE SCRIPT
+================================

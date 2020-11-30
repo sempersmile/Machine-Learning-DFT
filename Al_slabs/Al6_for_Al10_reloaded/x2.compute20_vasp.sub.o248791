@@ -1,0 +1,81 @@
+export: Command not found.
+Missing }.
+
+Sun Aug 16 11:01:54 CEST 2020
+Directory: /tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded
+
+Delete mpd.hosts!
+
+Python-Skript: /tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded/model_AMP.py
+
+Number of MPI processes: 64
+Hostlist: r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n60 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n59 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n57 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52 r03n52
+
+Start the job!
+INFO:root:Generating training and test data
+Traceback (most recent call last):
+  File "/tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded/model_AMP.py", line 266, in <module>
+    = generate_data(50, FILENAME)
+  File "/tp_leppert/bt702501/CodesII/Al6_for_Al10_reloaded/model_AMP.py", line 144, in generate_data
+    np.save(energies_numpy, energies, allow_pickle=True)
+UnboundLocalError: local variable 'energies' referenced before assignment
+Job ended!
+
+Sun Aug 16 11:02:14 CEST 2020
+
+================================
+  START btrzx2 EPILOGUE SCRIPT
+================================
+
+User is 
+
+Epilogue Args (normal):
+
+Job ID:              248791.mgmt01
+User ID:             bt702501
+Group ID:            vivaorg_18029055
+Job name:            x2.compute20_vasp.sub
+Session ID:          125363
+Resourse list:       neednodes=4:ppn=32:compute20,nodes=4:ppn=32:compute20,walltime=20:00:00
+Resource used:       cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:20
+Queue name:          default
+Account string:      
+Exit code:           248791.mgmt010
+
+Epilogue session ID: 125482
+
+Hostlist:            r03n60 r03n59 r03n57 r03n52 
+
+#Nodes:              4
+
+----------------------
+Multiple nodes section
+----------------------
+
+Host r03n60
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n59
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n57
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n52
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+================================
+   END btrzx2 EPILOGUE SCRIPT
+================================

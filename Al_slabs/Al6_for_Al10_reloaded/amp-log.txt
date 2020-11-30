@@ -1,0 +1,644 @@
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: bt702501
+Hostname: r03n60
+Date: 2020-08-16T11:17:46 (2020-08-16T09:17:46 UTC)
+Architecture: x86_64
+PID: 126819
+Amp version: 0.7.0-beta
+Amp directory: /tp_leppert/amp_package/amp/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.7.4: /tp_leppert/amp_package/env_btrzx2/bin/python3.7
+ASE v3.19.1: /tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/ase
+NumPy v1.18.3: /tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/numpy
+SciPy v1.4.1: /tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/scipy
+ZMQ/PyZMQ v4.3.2/v19.0.0: /tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/pexpect/pxssh.py
+======================================================================
+Parallel configuration determined from environment for PBS:
+  localhost: 16
+  r03n52: 16
+  r03n60: 16
+  r03n57: 16
+Loaded file: ../Al6_reloaded/calc_Al6.amp
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 0 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 0 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 1 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 1 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 0 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.5 min.
+...forces calculated. 1.7 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 1 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 1 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 2 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 2 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 1 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.6 min.
+...forces calculated. 1.8 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 2 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 2 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 3 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 3 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 2 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.6 min.
+...forces calculated. 1.8 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 3 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 3 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 4 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 4 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 3 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.6 min.
+...forces calculated. 1.8 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 4 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 4 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 5 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 5 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 4 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.6 min.
+...forces calculated. 1.8 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 5 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 5 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 6 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 6 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 5 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.6 min.
+...forces calculated. 1.8 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 6 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 6 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 7 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 7 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 6 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.5 min.
+...forces calculated. 1.7 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 7 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 7 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 8 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 8 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 7 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.5 min.
+...forces calculated. 1.7 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 8 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 8 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 9 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 9 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 8 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.5 min.
+...forces calculated. 1.7 min.
+Calculation requested.
+Calculating potential energy...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 9 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 9 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprints calculated. 0.0 min.
+...potential energy calculated. 0.0 min.
+Calculation requested.
+Calculating forces...
+Cutoff function: <Cosine cutoff with Rc=6.500 from amp.descriptor.cutoffs>
+1 unique elements included: Al
+Number of symmetry functions for each element:
+ Al: 8
+Al feature vector functions:
+ 0: G2, Al, eta = 0.049999999999999996
+ 1: G2, Al, eta = 0.2320794416806389
+ 2: G2, Al, eta = 1.0772173450159415
+ 3: G2, Al, eta = 5.000000000000001
+ 4: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=1.0
+ 5: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=1.0
+ 6: G4, (Al, Al), eta=0.005, gamma=1.0, zeta=4.0
+ 7: G4, (Al, Al), eta=0.005, gamma=-1.0, zeta=4.0
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 10 total images, 1 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 0.0 min.
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 10 total images, 1 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 0.0 min.
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 9 total images, 0 of which are needed.
+ 1 new calculations needed.
+ Calculated 1 new images.
+...fingerprint derivatives calculated. 1.5 min.
+...forces calculated. 1.7 min.

@@ -1,0 +1,116 @@
+export: Command not found.
+Missing }.
+
+Thu Aug  6 18:03:47 CEST 2020
+Directory: /tp_leppert/bt702501/CodesII/Al6_reloaded
+
+Delete mpd.hosts!
+
+Python-Skript: /tp_leppert/bt702501/CodesII/Al6_reloaded/model_AMP.py
+
+Number of MPI processes: 64
+Hostlist: r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n39 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n33 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n32 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31 r03n31
+
+Start the job!
+INFO:root:Generating training and test data
+INFO:root:Generation of training and test data finished!
+INFO:root:Starting Training
+INFO:root:Training finished!
+N Densities: 50
+Train indices: [0, 1, 4, 5, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 40, 41, 42, 43, 44, 45, 46, 48, 49]
+Test indices: [2, 3, 6, 8, 10, 19, 37, 38, 39, 47]
+Train densities: (40, 1, 96, 140, 384)
+Test densities: (10, 1, 96, 140, 384)
+Train energies: (40,)
+Test energies: (10,)
+{'r03n39': 16, 'r03n33': 16, 'r03n32': 16, 'r03n31': 16}
+/tp_leppert/amp_package/amp/amp/analysis.py:372: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  ax.plot(list(zip(*np.vstack(energy_data.values())))[0],
+/tp_leppert/amp_package/amp/amp/analysis.py:373: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  list(zip(*np.vstack(energy_data.values())))[1], color)
+/tp_leppert/amp_package/amp/amp/analysis.py:389: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  ax.plot(np.hstack(force_data.values())[0].flatten(),
+/tp_leppert/amp_package/amp/amp/analysis.py:390: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  np.hstack(force_data.values())[1].flatten(), color)
+[-572.78606874 -572.51685677 -572.22598126 -572.51681029 -572.20720066
+ -572.11433421 -572.37849883 -572.3108751  -572.26017978 -572.37852478]
+[-572.7118005029502 -572.3900618816838 -572.1296320163096
+ -572.5390918416628 -572.1910150171755 -572.1580501422015
+ -572.3997504936993 -572.3864146458417 -572.4010346473708
+ -572.5409484864077]
+Traceback (most recent call last):
+  File "/tp_leppert/bt702501/CodesII/Al6_reloaded/model_AMP.py", line 346, in <module>
+    overwrite=True)
+  File "/tp_leppert/amp_package/amp/amp/analysis.py", line 402, in plot_parity_and_error
+    fig.savefig(plotfile_parity)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/figure.py", line 2203, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 2105, in print_figure
+    **kwargs)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/backends/backend_pdf.py", line 2541, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/backends/backend_pdf.py", line 459, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+  File "/tp_leppert/amp_package/env_btrzx2/lib/python3.7/site-packages/matplotlib/cbook/__init__.py", line 403, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nuss/01/bt702501/Dokumente/PlotsII_reloaded/parity_Al6.pdf'
+Job ended!
+
+Thu Aug  6 18:36:55 CEST 2020
+
+================================
+  START btrzx2 EPILOGUE SCRIPT
+================================
+
+User is 
+
+Epilogue Args (normal):
+
+Job ID:              247707.mgmt01
+User ID:             bt702501
+Group ID:            vivaorg_18029055
+Job name:            x2.compute20_vasp.sub
+Session ID:          18722
+Resourse list:       neednodes=4:ppn=32:compute20,nodes=4:ppn=32:compute20,walltime=05:00:00
+Resource used:       cput=07:53:54,mem=12416956kb,vmem=27129800kb,walltime=00:33:08
+Queue name:          default
+Account string:      
+Exit code:           247707.mgmt010
+
+Epilogue session ID: 19646
+
+Hostlist:            r03n39 r03n33 r03n32 r03n31 
+
+#Nodes:              4
+
+----------------------
+Multiple nodes section
+----------------------
+
+Host r03n39
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n33
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n32
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+Host r03n31
+Remaining user PIDs (including ssh):
+PID TTY TIME CMD
+ => Kill user PIDs
+ => Drop buffers
+
+================================
+   END btrzx2 EPILOGUE SCRIPT
+================================

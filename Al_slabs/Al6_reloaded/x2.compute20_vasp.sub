@@ -1,0 +1,86 @@
+#!/bin/tcsh
+#PBS -l nodes=4:ppn=32:compute20,walltime=05:00:00
+#PBS -j oe
+#PBS -m abe
+#PBS -M axel.schmid@uni-bayreuth.de 
+
+#-------------------------------------------------------------------------------
+#Set environment if necessary (mpirun, MPI and MKL libraries)
+module load intel_parallel_studio_xe_2016_update4
+source /tp_leppert/amp_package/env_btrzx2/bin/activate
+
+#-------------------------------------------------------------------------------
+#Unlimit
+unlimit
+limit coredumpsize 0
+
+#-------------------------------------------------------------------------------
+#Output and go to working directory
+echo
+date
+echo -n 'Directory: '
+echo $PBS_O_WORKDIR
+cd $PBS_O_WORKDIR
+echo
+echo $PBS_JOBID > JobID.out
+
+#-------------------------------------------------------------------------------
+# Get the hostfile
+if ( -e mpd.hosts) then
+	echo 'Delete mpd.hosts!'
+	rm -f mpd.hosts
+endif
+
+#-------------------------------------------------------------------------------
+# Drop every second proc. socket (Hyperthreading) and save proc. list in mpd.hosts
+awk '{if(NR %2 ==0) print $1 ;}' $PBS_NODEFILE > mpd.hosts
+
+#-------------------------------------------------------------------------------
+#Set number of threads (per process) to one
+setenv OMP_NUM_THREADS 1
+
+#-------------------------------------------------------------------------------
+# Extract the number of hosts from the hostfile
+set hostlist = (`cat mpd.hosts`)
+set nodes = $#hostlist
+
+#-------------------------------------------------------------------------------
+#Set variables for Python Executables
+#Input for the Python Skript needed (Same directory as input)
+set PythonScript = /tp_leppert/bt702501/CodesII/Al6_reloaded/model_AMP.py
+echo
+echo -n 'Python-Skript: '
+echo $PythonScript
+echo
+
+#-------------------------------------------------------------------------------
+#Set variables for profiling
+set MEMSWEEPER = /cluster/bayreuth/iws/bin/memsweeper
+set DROP_BUFFERS = /cluster/bayreuth/iws/bin/drop_buffers
+
+#-------------------------------------------------------------------------------
+#Output
+echo -n 'Number of MPI processes: '
+echo $nodes
+echo -n 'Hostlist: '
+echo $hostlist
+echo
+echo 'Start the job!'
+
+#-------------------------------------------------------------------------------
+#Clear memory
+$MEMSWEEPER mpd.hosts
+$DROP_BUFFERS mpd.hosts
+
+#-------------------------------------------------------------------------------
+#Execute
+python3.7 $PythonScript
+
+#-------------------------------------------------------------------------------
+#Output and clean up
+echo 'Job ended!'
+unset $hostlist
+unset $nodes
+echo
+date
+exit
